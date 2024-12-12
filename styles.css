@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+}
+button{
+    padding: 20px;
+    margin: 10px;
+    margin-top: 33px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+
+}
+button:hover{
+    box-shadow: 0 0 20px white;
+}
+button>a{
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    border: 1px solid;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 0 20px white;
+}
+
+/* Image styling */
+img {
+    max-width: 50%;
+    height: 5%;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 0 0 20px rgb(186, 14, 14);
+
+}
+
+h4{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0 0 20px white;
+
+}
+section{
+    float: right;
+    border: 1px solid;
+    padding: 33px;
+    margin: 90px;
+    box-shadow: 0 0 20px white;
+
+}
+
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
